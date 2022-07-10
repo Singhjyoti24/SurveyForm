@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Survey-Form</title>
+</head>
+
+<body>
+    <h1>geeksforgeeks Survey Form</h1>
+    <p class="note">Thank you for taking the time to help us improve the platform</p>
+
+    <div class="section">
+        <form action="">
+            <label class="com">Name</label>
+            <input type="text" class="name box" placeholder="Enter your name"><br><br>
+            <label class="com">Email</label>
+            <input type="email" class="email box" placeholder="Enter your Email"><br><br>
+            <label class="com">Age (optional)</label>
+            <input type="number" class="age box" placeholder="Age"><br><br>
+            <label for="role" class="com">Which option best describes your current role?</label>
+            <select name="role" class="box" id="role">
+                <option value="opt1">Student</option>
+                <option value="opt2">Full Time Job</option>
+                <option value="opt3">Full Time Learner</option>
+                <option value="opt4">Prefer not to say</option>
+                <option value="opt5">Other</option>
+            </select><br><br>
+            <label for="" class="com">Would you recommend geeksforgeeks to a friend?</label><br>
+            <input type="checkbox" class="btn" value=""><label class="com">Definitely</label><br>
+            <input type="checkbox" class="btn" value=""><label class="com">Maybe</label><br>
+            <input type="checkbox" class="btn" value=""><label class="com">Not sure</label><br><br>
+
+            <label for="feature" class="com">What is your favourite feature of geeksforgeeks?</label>
+            <select name="feature" class="box" id="feature">
+                <option value="opt1">Challenges</option>
+                <option value="opt2">Projects</option>
+                <option value="opt3">Community</option>
+                <option value="opt4">Open Source</option>
+            </select><br><br>
+
+            <label for="version" class="com">What would you like to see improved? (check all that apply)</label><br>
+            <input type="checkbox" name="opt" id="frontend"><label for="" class="com">Front-end Projects</label><br>
+            <input type="checkbox" name="opt" id="backend"><label for="" class="com">Back-end Projects</label><br>
+            <input type="checkbox" name="opt" id="data"><label for="" class="com">Data Visualization</label><br>
+            <input type="checkbox" name="opt" id="chall"><label for="" class="com">Challenges</label><br>
+                <input type="checkbox" name="opt" id="open"><label for="" class="com">Open Source Community</label><br>
+                <input type="checkbox" name="opt" id="gitter"><label for="" class="com">Gitter help rooms</label><br>
+                <input type="checkbox" name="opt" id="videos"><label for="" class="com">Videos</label><br>
+                <input type="checkbox" name="opt" id="city"><label for="" class="com">City Meetups</label><br>
+                <input type="checkbox" name="opt" id="wiki"><label for="" class="com">Wiki</label><br>
+                <input type="checkbox" name="opt" id="forum"><label for="" class="com">Forum</label><br>
+                <input type="checkbox" name="opt" id="courses"><label for="" class="com">Additional Courses</label><br>
+                <br><br>
+                <label for="comment" class="com">Any comments or suggestions?</label><br>
+                <textarea name="msg" class="box" id="msg" cols="100" rows="10" placeholder="Enter your comments here..."></textarea>
+
+                <br><br><br>
+                <button type="submit" class="btns">Submit</button>
+                <br><br><br><br>
+        </form>
+    </div>
+</body>
+
+</html>
